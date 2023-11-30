@@ -19,6 +19,12 @@ p{
 div.phone-menu{
     display: none;
 }
+nav {
+    background-color: purple;
+    padding: 20px;
+    align-items: center;
+}
+
 #menu{
     display:none;
 }
@@ -32,7 +38,8 @@ ul li a:hover{
 ul li a{
     text-decoration: none;
     margin: 0px 10px;
-    color: hsl(240, 100%, 5%);
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
     font-size: 15px;
 }
 
